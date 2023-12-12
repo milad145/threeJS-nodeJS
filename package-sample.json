@@ -1,0 +1,29 @@
+{
+  "name": "threejs-panel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_PATH=. NODE_ENV=development nodemon server.js",
+    "prod": "NODE_PATH=. NODE_ENV=production pm2 start server.js --name ThreeJS_Panel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milad145/threeJS-nodeJS.git"
+  },
+  "keywords": [
+    "Three.js",
+    "Threejs",
+    "node.js"
+  ],
+  "author": "Milad Aslani Somarin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/milad145/threeJS-nodeJS/issues"
+  },
+  "homepage": "https://github.com/milad145/threeJS-nodeJS#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
