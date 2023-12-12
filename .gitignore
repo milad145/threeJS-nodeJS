@@ -4,3 +4,4 @@
 /package.json
 /config/development.json
 /config/production.json
+/test.js
