@@ -19,3 +19,13 @@ if you want to run it in the production mode you must execute this code
 #### 4. open this url in your browser
     http://localhost:3200/
 * you can change the `port`, just edit it in the `config/development.json` file
+
+### Try it here (demo link)
+#### https://milad145.github.io/ThreeJS-panel/
+
+you can add your 3d models and also images and videos to a 3d world.
+
+
+
+### you can watch the demo video here
+#### https://milad145.github.io/ThreeJS-panel/assets/media/three_js_panel.mp4
