@@ -15,7 +15,7 @@ class LoadManager {
     onProgress(item, loaded, total) {
         // console.log(Math.round(loaded / total * 100, 2) + '%')
         document.getElementById('progress-value').style.width = (loaded / total * 100).toFixed(2) + '%';
-        document.getElementById('stepName').innerHTML = 'Preparing Model';
+        document.getElementById('stepName').innerHTML = 'در حال بارگزاری مدل';
         document.getElementById('stepName').style.color = 'green';
         document.getElementById('progress-value').classList.remove("bg-danger");
         document.getElementById('progress-value').classList.add("bg-success");
@@ -28,7 +28,7 @@ class LoadManager {
     onDownload(xhr) {
         document.getElementById('progress-value').classList.add("bg-danger");
         document.getElementById('progress-value').style.width = (xhr.loaded / xhr.total * 100).toFixed(2) + "%";
-        document.getElementById('stepName').innerHTML = 'Downloading Model';
+        document.getElementById('stepName').innerHTML = 'در حال دانلود مدل';
         document.getElementById('stepName').style.color = 'red';
     }
 }
