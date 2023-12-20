@@ -6,8 +6,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_PATH=. NODE_ENV=development nodemon server.js",
-    "prod": "NODE_PATH=. NODE_ENV=production pm2 start server.js --name ThreeJS_Panel"
+    "start": "NODE_ENV=development nodemon server.js",
+    "prod": "NODE_ENV=production pm2 start server.js --name ThreeJS_Panel"
   },
   "repository": {
     "type": "git",
